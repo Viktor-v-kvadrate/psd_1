@@ -1,0 +1,236 @@
+@font-face {
+    font-family: "MyriadPro";
+    src: url("../Fonts/ofont.ru_Myriad Pro.ttf");
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: #333333;
+    overflow: hidden;
+}
+main{
+    background-color: #ffffff;
+}
+.headerBox, section{
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+h1{
+    float: left;
+    font-size: 60px;
+    color: #eeeeee;
+    padding-top: 41px;
+    padding-bottom: 36px;
+    font-family: "MyriadPro";
+    font-weight: normal;
+}
+nav{
+    float: right;
+    padding-top: 84px;
+    padding-bottom: 37px;
+}
+li{
+    display: inline-block;
+    list-style: none;
+    font-size: 16px;
+    color: #eeeeee;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+li a{
+    text-decoration: none;
+    color: #eeeeee;
+}
+li a:hover{
+    color: #0f94c9;
+}
+.info1{
+    font-size: 60px;
+    font-weight: bold;
+    color: #333333;
+    padding-top: 70px;
+    font-family: "MyriadPro";
+    font-weight: bold;
+}
+span{
+    color: #00bff3;
+}
+.info2{
+    font-size: 50px;
+    font-weight: normal;
+    color: #bbbbbb;
+    padding-bottom: 30px;
+    font-family: "MyriadPro";
+    font-weight: normal;
+}
+.info3{
+    font-size: 34px;
+    font-weight: normal;
+    color: #555555;
+    padding-top: 35px;
+    padding-bottom: 41px;
+    font-family: "MyriadPro";
+    font-weight: normal;
+}
+.manyDote{
+    color: #cccccc;
+}
+.cards{
+    margin-top: 44px;
+    color: #ffffff;
+}
+.card, .card1, .card2{
+    width: 283px;
+    height: 351px;
+    margin-bottom: 44px;
+    padding: 26px 24px 34px;
+    background-color: #00aeef;
+    float: left;
+    box-sizing: border-box;
+    text-align: center;
+    box-shadow: 1px 1px #c7c7c7,
+                2px 2px #cfcfcf,
+                3px 3px #d9d9d9,
+                4px 4px #e6e6e6,
+                5px 5px #f0f0f0,
+                6px 6px #f8f8f8;
+}
+.card1{
+    margin-left: 55px;
+    margin-right: 55px;
+}
+.cardName{
+    font-family: "MyriadPro";
+    font-weight: normal;
+    font-size: 40px;
+}
+.cardText{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 28px 0;
+}
+button{
+    width: 232px;
+    height: 41px;
+    font-family: "MyriadPro";
+    font-weight: normal;
+    color: #ffffff;
+    background-color: #00aeef;
+    border: solid #15607c 1px;
+    outline: none;
+}
+button:hover{
+    background-color: #0076a3;
+    border: solid #15607c 1px;
+    box-shadow: inset 1px 1px 10px #15607c;
+}
+.lastBox{
+    overflow: hidden;
+    position: relative;
+}
+.leftBox{
+    width: 448px;
+    padding-top: 37px;
+    float: left;
+}
+.rightBox{
+    width: 433px;
+    padding-top: 37px;
+    float: right;
+}
+.centrBox{
+    width: 423px;
+    float: left;
+    transform: rotate(90deg);
+    position: absolute;
+    left: 275px;
+    top: 220px;
+    color: #cccccc;
+}
+.contentDiv{
+    overflow: hidden;
+    margin-bottom: 33px;
+}
+.square{
+    width: 82px;
+    height: 82px;
+    margin-right: 27px;
+    background-color: #cccccc;
+    border: solid 1px #dddddd;
+    float: left;
+}
+.contentDiv q{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    color: #555555;
+}
+.contentDiv p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: #555555;
+    margin-top: 15px;
+}
+.contentDiv a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    color: #00aeef;
+    text-decoration: none;
+}
+.lastBox a:hover{
+    font-weight: bold;
+}
+.leftP1{
+    padding-bottom: 30px;
+    font-family: "MyriadPro";
+    font-weight: normal;
+    font-size: 24px;
+    color: #555555;
+
+}
+.rightP1{
+    padding-bottom: 24px;
+    font-family: "MyriadPro";
+    font-size: 24px;
+    font-weight: normal;
+    color: #555555;
+}
+.rightP2{
+    padding-bottom: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    color: #888888;
+}
+.rightP3{
+    padding-top: 10px;
+    padding-bottom: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    color: #555555;
+}
+.rightBox a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    color: #00aeef;
+    text-decoration: none;
+}
+.footerSize{
+    height: 100px;
+}
+.footerSize p{
+    margin-top: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    color: #888888;
+}
